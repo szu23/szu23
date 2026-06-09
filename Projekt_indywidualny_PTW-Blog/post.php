@@ -134,5 +134,9 @@ if (isset($_POST['dodaj_komentarz'])) {
         });
     });
     </script>
+
+    <div id="pasekdolny">
+        <p>Strona utworzona przez Jakuba Zuchowicza</p>
+    </div>
 </body>
 </html>

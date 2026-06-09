@@ -39,7 +39,7 @@ body {
   margin-left: 15px;
 }
 
-#pasekgorny, #pasekdolny {
+#pasekgorny {
   background-color: black;
   height: 110px;
 }
@@ -49,9 +49,16 @@ body {
   height: 100px;
 }
 
+#pasekdolny {
+  background-color: black;
+  height: 110px;
+  display: flex;
+  justify-content: center; /* środek poziomo */
+  align-items: center;     /* środek pionowo */
+}
+
 #pasekdolny p {
-  text-align: center;
-  margin: 0 auto;
+  margin: 0;
 }
 
 #posty {

@@ -101,5 +101,9 @@ $posty3 = mysqli_fetch_all($posty2, MYSQLI_ASSOC);
             <?php endif; ?>
         </div>
     </div>
+
+    <div id="pasekdolny">
+        <p>Strona utworzona przez Jakuba Zuchowicza</p>
+    </div>
 </body>
 </html>
