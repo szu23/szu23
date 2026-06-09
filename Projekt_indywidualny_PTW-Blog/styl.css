@@ -39,7 +39,7 @@ body {
   margin-left: 15px;
 }
 
-#pasekgorny {
+#pasekgorny, #pasekdolny {
   background-color: black;
   height: 110px;
 }
@@ -47,6 +47,11 @@ body {
 #pasekgorny #logo {
   width: 125px;
   height: 100px;
+}
+
+#pasekdolny p {
+  text-align: center;
+  margin: 0 auto;
 }
 
 #posty {
